@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="/javascript/home.js" defer></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Add a PET</h2>
+        <form method="POST" action="/pets">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
+    
+          <label for="age">Age:</label>
+          <input type="number" name="age" id="age">
+    
+          <label for="species">Species:</label>
+          <select name="species" id="species">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+          </select>
+    
+          <label for="race">Race:</label>
+          <input type="text" name="race" id="race">
+    
+          <label for="picture">Picture:</label>
+          <input type="text" name="picture" id="picture">
+    
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" rows="4"></textarea>
+    
+          <br>
+          <input type="submit" value="Save">
+        </form>
+      </div>
+      <div class="content">
+        <header><h1>PETS.com</h1></header>
+        <div class="pets">
+          <!-- Pets goes here -->
+        </div>
+        <footer>Footer Content — PETS.com 2021</footer>
+      </div>    
+</body>
+</html>

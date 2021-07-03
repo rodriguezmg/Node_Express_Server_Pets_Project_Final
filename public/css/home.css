@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar {
+    height: 100%;
+    background: lightpink;
+    padding: 2rem;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
+  
+  body {
+    font-family: system-ui, serif;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img {
+    max-width: 25em;
+  }
+  
